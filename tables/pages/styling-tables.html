@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        table,
+       th,
+       td {
+           border: 1px solid black;
+           padding: 5px;
+       }
+       th{
+        background-color:blueviolet;
+       }
+
+       table {
+           margin: 20px auto;
+           width: 95%;
+            border: 3px solid lightslategray;
+            border-collapse:collapse;
+       }
+       tr:hover {
+        background-color: forestgreen;
+       }
+       td{
+        text-align: center;
+        min-height: 25px;
+       }
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Tables</h1>
+        <nav>
+            <a href="../index.html">Table Basics</a>
+            <a href="#">Styling Tables</a>
+            <a href="calendar.html">Creating a Calender</a>
+        </nav>
+    </header>
+    <table width = 80%>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <th>9:00 a.m</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>10:00 a.m</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>11:00 a.m</th>
+            <td rowspan="3">Web Fundamentals</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>12:00 p.m</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>1:00 p.m</th>
+            <td></td>
+            <td colspan="2">Interface Design</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>2:00 p.m</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>3:00 p.m</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Homework</td>
+        </tr>
+        <tr>
+            <th>4:00 p.m</th>
+            <td rowspan="3">Programming Logic</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Homework</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>5:00 p.m</th>
+            <td>Hang out with Friends</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>         
+        </tr>
+        <tr>
+            <th>6:00 p.m</th>
+            <td></td>
+            <td colspan="2">Work</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+</body>
+</html>

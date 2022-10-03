@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    line-height: 2;
+    font-size: large;
+}
+h1{
+    color:lightslategray;
+    font-weight: 80%;
+    text-align: center;
+}
+nav{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: x-large;
+    word-spacing: auto;
+    text-decoration: none;
+    background-color:darkolivegreen;
+    
+}
+nav a{
+    padding: 7px 7px;
+    text-decoration: none;
+    background-color:antiquewhite;
+    border-radius: 80%;
+}
+nav a:hover{
+    padding: 7px 7px;
+    background-color:aquamarine;
+    border-radius: 0%;
+    color:black;
+}
+table{
+    color:lightslategray;
+    background-color: bisque;
+}
